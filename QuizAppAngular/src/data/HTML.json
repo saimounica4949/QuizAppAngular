@@ -1,0 +1,367 @@
+{
+    "id": 3,
+    "name": "HTML Quiz",
+    "description": "HTML Quiz",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "HTML stands for -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "HighText Machine Language",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "hypertext markup language",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Object Oriented Programming",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Which of the following element is responsible for making the text bold in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<b>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<pre>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<p>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "strong",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Which of the following tag is used for inserting the largest heading in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<h6>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<h2>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<h1>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "<h4>",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "Which of the following tag is used to insert a line-break in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<br>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<hr>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<b>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "How to create an unordered list (a list with the list items in bullets) in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<ol>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<dl>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<li>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "<ul>",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "How to create an ordered list (a list with the list items in numbers) in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<ul>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<dl>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<ol>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "<li>",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Which of the following element is responsible for making the text italic in HTML?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<b>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<i>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<italic>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Which of the following tag is used to make the underlined text?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<ul>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<u>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<li>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Which of the following attribute is used to provide a unique name to an element?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "id",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "class",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "type",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Which of the following HTML tag is the special formatting tag?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<pre>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<f>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<p>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "<format>",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

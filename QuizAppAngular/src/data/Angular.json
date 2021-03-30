@@ -1,0 +1,379 @@
+{
+    "id": 2,
+    "name": "Angular Quiz",
+    "description": "Angular Quiz",
+    "config": {
+        "shuffleQuestions": true,
+        "showPager": false,
+        "allowBack": true,
+        "autoMove": true
+    },
+    "questions": [
+        {
+            "id": 1010,
+            "name": "Angular Js is based on",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "MVC architecture",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "decorator pattern",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "observer pattern",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "MVVM architectural pattern",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Angular Js expressions ar written using",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "(expression)",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "{{{expression}}}",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "{{expression}}",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "[expression]",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "[expression]",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "Which of the following is not valid Angular JS filter",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "lowercase",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "email",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "currency",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "orderby",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "How do you share data between controller and view",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "using services",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "using factory",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "using divide",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "using modulo",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "What is $routerprovider",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "A service",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "A model",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "A component",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "A module",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "Angular 1.x is written in ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "typescript",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "javascript",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "html",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "Angular JS directives are used in",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "component",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "view",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "module",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "routing",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Angular JS applications are a mix of ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "html and css",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "html and javascript",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "javascript and css",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "typecript and css",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "Father of AngularJs ",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Igor Minor",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Misko Hevery",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Brad Green",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Gausling",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "Which of the following does NOT represent Integer?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Char",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Byte",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Short",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "Long",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}

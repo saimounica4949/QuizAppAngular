@@ -1,0 +1,70 @@
+<body>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-6 offset-md-3">
+            <br>
+            <form  novalidate #regForm="ngForm" (ngSubmit)="register(regForm)">
+                
+                <h2 class="text-center">Registration form</h2>
+                <br>
+                
+                    <input type="text" class="form-control" placeholder="First Name" name="firstname"
+                    required  minlength="3" 
+                    [(ngModel)]="reg.firstname" #firstnamev="ngModel" >
+                    
+                    <div [hidden]="firstnamev.valid || firstnamev.pristine"
+                    class="alert alert-danger">
+                    
+                First Name is required and minimum length is 3</div>
+
+                    
+
+               <br>
+                
+                    <input type="text" class="form-control" placeholder="Last Name" name="lastname" required
+                    [(ngModel)]="reg.lastname" #lastnamev="ngModel" minlength="3">
+                    <div [hidden]="lastnamev.valid || lastnamev.pristine"
+                    class="alert alert-danger">
+                    
+                last Name is required and minimum length is 3</div>
+                <br>
+                
+                    <input type="email" class="form-control" placeholder="Email" name="email" required 
+                    [(ngModel)]="reg.email" #emailv="ngModel">
+                    <div [hidden]="emailv.valid || emailv.pristine"
+                    class="alert alert-danger">
+                    
+                email is required and should contain '@'</div>
+                <br>
+                
+                    <input type="tel" class="form-control" placeholder="Mobile" name="mobile"  required
+                    [(ngModel)]="reg.mobile" #mobilev="ngModel" minlength="10">
+                    <div [hidden]="mobilev.valid || mobilev.pristine"
+                    class="alert alert-danger">
+                    
+                mobile number is required and no. of digits should be 10</div>
+                
+                <br>
+                
+                    <datalist id="Reason">
+                        <option value="Interview preparation"></option>
+                        <option value="Online courses"></option>
+                        <option value="Problem in accessing any quiz"></option>
+                    </datalist>
+                    <input type="text" list="Reason" class="form-control" placeholder="Reason" name="reason"  required  id="reason" ngModel>
+                    
+                
+                <br>
+               
+                    <button type="submit"  class="btn btn-primary"[disabled]="!regForm.form.valid">Register</button>
+                
+                <br>
+                
+            </form>
+            <br>
+            
+            
+        </div>
+    </div>
+</div>
+</body>

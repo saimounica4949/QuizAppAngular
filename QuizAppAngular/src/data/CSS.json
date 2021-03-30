@@ -1,0 +1,367 @@
+{
+    "id": 1,
+    "name": "CSS Quiz",
+    "description": "CSS Quiz",
+    "questions": [
+        {
+            "id": 1010,
+            "name": "CSS stands for -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Cascade style sheets",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "Cascading style sheets",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "Color and style sheets",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1011,
+            "name": "Which of the following is the correct syntax for referring the external style sheet?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<style src = example.css>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "<style src = example.css>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<link rel=stylesheet type=text/css href=example.css>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1012,
+            "name": "The property in CSS used to change the background color of an element is -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "background-color",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "color",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "bg-color",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1013,
+            "name": "The HTML attribute used to define the inline styles is -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "style",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "styling",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "script",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1014,
+            "name": "Which of the following does NOT require type casting?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "Session",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "TempData",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "ViewData",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "ViewBag",
+                    "isAnswer": true
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1015,
+            "name": "The CSS property used to control the element's font-size is -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "text-size",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "size",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "font-size",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "None of the above",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1016,
+            "name": "The HTML attribute used to define the internal stylesheet is -",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "<script>",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "<style>",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "style",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "none",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1017,
+            "name": "Which tag asp:Label control by default renders to?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "div",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "span",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "body",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "label",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1018,
+            "name": "If we want to wrap a block of text around an image, which CSS property will you use?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "wrap",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "push",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "float",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "align",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        },
+        {
+            "id": 1019,
+            "name": "If we want to show an arrow as cursor, then which value we will use?",
+            "questionTypeId": 1,
+            "options": [
+                {
+                    "id": 1055,
+                    "questionId": 1010,
+                    "name": "default",
+                    "isAnswer": true
+                },
+                {
+                    "id": 1056,
+                    "questionId": 1010,
+                    "name": "pointer",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1057,
+                    "questionId": 1010,
+                    "name": "arrow",
+                    "isAnswer": false
+                },
+                {
+                    "id": 1058,
+                    "questionId": 1010,
+                    "name": "arr",
+                    "isAnswer": false
+                }
+            ],
+            "questionType": {
+                "id": 1,
+                "name": "Multiple Choice",
+                "isActive": true
+            }
+        }
+    ]
+}
